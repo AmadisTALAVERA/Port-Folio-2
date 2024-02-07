@@ -1,0 +1,136 @@
+* {
+    padding : 0;
+    border : 0;
+    margin : 0;
+}
+
+.navbar {
+    top: 0;
+    padding: 0 2.5%;
+    width: 95%;
+    height: 4.5rem;
+    border-bottom: 2px solid white;
+    background-color: red;
+    position: -webkit-sticky;
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.presentationBlock {
+    padding: 0.5rem;
+    height: 50rem;
+    background-color: yellow;
+    position: fixed;
+    z-index: -1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.presentationBlock h3 {
+    font-size: 20px;
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+}
+
+.introBlock {
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.introBlock img {
+    height: 12rem;
+    border-radius: 50%;
+}
+
+.titleBlock {
+    padding-left: 2%;
+    background-color: lightgreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.titleBlock h1 {
+    font-size: 250%;
+}
+
+.infoBlock {
+    border-top: 2px solid white;
+    padding-top: 0.5rem;
+    height: 20rem;
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+}
+
+.infoBlock .text1 {
+    background-color: purple;
+}
+
+.infoBlock .text1 h1 {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.infoBlock .text2 {
+    background-color: plum;
+    display: flex;
+    justify-content: end;
+}
+
+.infoBlock .text3 {
+    padding: 1rem 1rem 0.5rem 1rem;
+    background-color: blueviolet;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.infoBlock .text3 a {
+    margin-top: 5px;
+    text-decoration: none;
+}
+
+.infoBlock .text4 {
+    height: 20rem;
+    background-color: orange;
+}
+
+.centralBlock {
+    margin-top: 45rem;
+    width: 100%;
+    height: 49.5rem;
+    position: static;
+    background: #5A5A5A;
+    border-radius: 10px;
+}
+
+.topCentralBlock {
+    border-bottom: 1px solid lightgray;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 500px) {
+    .infoBlock {
+
+    }
+
+    .titleBlock {
+
+    }
+
+    .infoTitleBlock {
+
+    }
+}
